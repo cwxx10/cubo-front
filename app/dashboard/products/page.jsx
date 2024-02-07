@@ -1,6 +1,14 @@
+import styles from "./products.module.css";
+import 'tailwindcss/tailwind.css';
+
 const ProductsPage = () => {
+    
     return (
-        <div>ProductsPage</div>
+        <div className={styles.teste}>ProductsPage
+            <h1 className="text-3xl font-bold underline">
+                Hello world!
+            </h1>
+        </div>
     )
 }
 

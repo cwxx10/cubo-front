@@ -26,10 +26,15 @@ const menuItems = [
                 icon: <MdDashboard />,
             },
             {
-                title: "Users",
+                title: "Pedidos de Análise",
                 path: "/dashboard/users",
                 icon: <MdSupervisedUserCircle />,
             },
+            // {
+            //     title: "Pedidos de Análise",
+            //     path: "/dashboard/users",
+            //     icon: <MdSupervisedUserCircle />,
+            // },
             {
                 title: "Products",
                 path: "/dashboard/products",
