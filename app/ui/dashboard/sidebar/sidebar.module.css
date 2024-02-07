@@ -8,6 +8,10 @@
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
+    background-color: var(--bgCinza);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
 }
 
 .userImage {
@@ -35,6 +39,7 @@
 
 .cat {
     color: var(--textSoft);
+    color: black;
     font-weight: bold;
     font-size: 13px;
     margin: 10px 0px;
@@ -56,5 +61,5 @@
 }
 
 .logout:hover {
-    background-color: #ad6565;
+    background-color: #dda0a0;
 }
