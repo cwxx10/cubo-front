@@ -99,6 +99,7 @@ const Sidebar = () => {
             </div>
             <ul className={styles.list}>
                 {menuItems.map(cat => (
+            //itens 
             <li key={cat.title}>
                 <span className={styles.cat}>{cat.title}</span>
                 {cat.list.map((item) => (

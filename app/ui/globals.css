@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
  /* :root{
     --bg: #151c2c;
     --bgSoft: #182237;
@@ -24,7 +28,7 @@ a{
 :root{
     --bg: #2e374a;
     --bgPreto: #2e374a;
-    --bgSoft: #8b95a3;
+    --bgSoft: #1E3A8A; /* azul padrao */
     --bgAzulClaroBootstrap: #CFE2FF;
     --bgCinza: rgb(223, 221, 221);
     --text: white;
